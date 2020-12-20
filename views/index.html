@@ -5,5 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form action="/newuser" method="POST">
+      <div class="form-group">
+        <input type="text" name="name" id="name" required />
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="email" id="email" required />
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="password" id="password" />
+      </div>
+
+      <div class="button__section">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
 </html>
